@@ -8,7 +8,6 @@ export default defineGkdApp({
       key: 0,
       name: '直播弹出',
       fastQuery: true,
-      snapshotUrls: ['https://i.gkd.li/snapshot/1728988178741'],
       activityIds: ['com.ss.android.ugc.aweme.live.LivePlayActivity'],
       rules: [
         {
