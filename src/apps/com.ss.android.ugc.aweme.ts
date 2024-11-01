@@ -22,6 +22,10 @@ export default defineGkdApp({
             '[text="了解详情"] < FrameLayout -n @[id="com.ss.android.ugc.aweme:id/iv_close"]',
           ],
         },
+        {
+          key: 2,
+          matches: ['@View <3 View > View > ViewGroup > [text="打开游戏"]'],
+        },
       ],
     },
   ],
