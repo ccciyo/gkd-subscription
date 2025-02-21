@@ -13,7 +13,7 @@ export default defineGkdApp({
         {
           key: 0,
           matches: [
-            'ImageView + @TextView[text="正在讲解"]',
+            '@ImageView + TextView[text="正在讲解"]',
           ],
         },
       ],
