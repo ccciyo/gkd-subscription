@@ -8,13 +8,13 @@ export default defineGkdApp({
       key: 0,
       name: '直播',
       fastQuery: true,
-      activityIds: ['com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity'],
+      activityIds: [
+        'com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity',
+      ],
       rules: [
         {
           key: 0,
-          matches: [
-            '@ImageView + TextView[text="正在讲解"]',
-          ],
+          matches: ['@ImageView + TextView[text="正在讲解"]'],
         },
       ],
     },
