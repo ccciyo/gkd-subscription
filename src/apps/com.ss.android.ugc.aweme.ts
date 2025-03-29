@@ -26,6 +26,10 @@ export default defineGkdApp({
           key: 2,
           matches: ['@View <3 View > View > ViewGroup > [text="打开游戏"]'],
         },
+        {
+          key: 3,
+          matches: ['@View <(3) View >5 [text="下载"]'],
+        },
       ],
     },
   ],
