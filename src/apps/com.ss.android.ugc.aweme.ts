@@ -8,7 +8,7 @@ export default defineGkdApp({
       key: 0,
       name: '直播弹出',
       fastQuery: true,
-      activityIds: ['com.ss.android.ugc.aweme.live.LivePlayActivity'],
+      activityIds: ['com.ss.android.ugc.aweme.live.LivePlayActivity','com.ss.android.ugc.aweme.live.LivePlayActivityV2'],
       rules: [
         {
           key: 0,
