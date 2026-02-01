@@ -8,7 +8,10 @@ export default defineGkdApp({
       key: 0,
       name: '直播弹出',
       fastQuery: true,
-      activityIds: ['com.ss.android.ugc.aweme.live.LivePlayActivity','com.ss.android.ugc.aweme.live.LivePlayActivityV2'],
+      activityIds: [
+        'com.ss.android.ugc.aweme.live.LivePlayActivity',
+        'com.ss.android.ugc.aweme.live.LivePlayActivityV2',
+      ],
       rules: [
         {
           key: 0,
@@ -24,7 +27,9 @@ export default defineGkdApp({
         },
         {
           key: 2,
-          matches: ['@View <3 View[childCount>=4] <<n FrameLayout >n [text="打开游戏"]'],
+          matches: [
+            '@View <3 View[childCount>=4] <<n FrameLayout >n [text="打开游戏"]',
+          ],
         },
         {
           key: 3,
