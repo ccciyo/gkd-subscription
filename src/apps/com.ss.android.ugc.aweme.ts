@@ -24,7 +24,7 @@ export default defineGkdApp({
         },
         {
           key: 2,
-          matches: ['@View <3 View < View < FrameLayout >n [text="打开游戏"]'],
+          matches: ['@View <3 View[childCount>=4] <<n FrameLayout >n [text="打开游戏"]'],
         },
         {
           key: 3,
