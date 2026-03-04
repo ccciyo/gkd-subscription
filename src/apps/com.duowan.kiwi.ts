@@ -22,6 +22,14 @@ export default defineGkdApp({
           key: 2,
           matches: ['[id="com.duowan.kiwi:id/ui_horizontal_close_top"]'],
         },
+        {
+          key: 3,
+          matches: ['[id="com.duowan.kiwi:id/iv_vertical_close"]'],
+        },
+        {
+          key: 4,
+          matches: ['[desc="主播为你推荐"] + ViewGroup > @View[desc="关闭"]'],
+        },
       ],
     },
   ],
